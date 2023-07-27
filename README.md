@@ -79,7 +79,7 @@ For the progress section, you will need to replace the value `$0` with a dynamic
 ```html
 <section className="progress">
   <h2>
-    Raised <span className="secondary">$0</span> of
+    Raised <span className="secondary">${donations.amount}</span> of
     <span className="secondary">$1000</span>
   </h2>
 </section>
