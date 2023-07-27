@@ -1,3 +1,5 @@
-export default function RecentDonations() {
+export default 
+
+function RecentDonations() {
   return null;
 }
