@@ -4,6 +4,7 @@ import "./App.css";
 import Progress from "./Components/Progress";
 import DonationForm from "./Components/DonationForm";
 import RecentDonations from "./Components/RecentDonations";
+import ThankYouNote from "./Components/ThankYouNote";
 
 const targetAmount = 1000;
 export const donations = [
@@ -53,6 +54,7 @@ function App() {
         </section>
         <RecentDonations />
       </main>
+      <ThankYouNote />
     </>
   );
 }
