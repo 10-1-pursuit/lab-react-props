@@ -1,9 +1,13 @@
-const DonationForm = () => {
+//import donations from "../App"
+
+const DonationForm = ({donations}) => {
+  //console.log(donations)
+   const donationNum = donations.length + 1
   return (
     <>
       <section className="donation">
         <h3>
-          You could be donation <span class="secondary">#1!</span>
+          You could be donation <span className="secondary">#{donationNum}!</span>
         </h3>
         <form>
           <label htmlFor="name">
