@@ -1,3 +1,9 @@
-export default function RecentDonations() {
-  return null;
+export default 
+
+function RecentDonations() {
+  return (
+    <>
+    {/* {name} donated ${amount}  */}
+    </>
+  )
 }
