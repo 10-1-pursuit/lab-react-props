@@ -40,6 +40,7 @@ function App() {
   return (
     <>
       <TopBar />
+      <h1>hello Jackie</h1>
       <main className="container">
         <section className="sidebar">{/* Recent Donations */}</section>
         <section className="">
