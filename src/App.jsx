@@ -45,7 +45,7 @@ function App() {
       <TopBar />
       <main className="container">
         <section className="sidebar">{/* Recent Donations */}
-        <RecentDonations  props = {donations.name}/>
+        <RecentDonations  />
         </section>
         <section className="">
           {/* Progress */}
@@ -61,3 +61,4 @@ function App() {
 }
 
 export default App;
+export {donations , targetAmount}
