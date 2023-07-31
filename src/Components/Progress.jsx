@@ -1,3 +1,5 @@
+import { donations } from "../App.jsx"
+
 export default function Progress(props) {
 
   console.log(props)
@@ -6,7 +8,7 @@ export default function Progress(props) {
     <div>
   <section className="progress">
   <h2>
-    Raised <span className="secondary">$0</span> of
+    Raised <span className="secondary">${donations.map(donate => donate.amount).reduce((a, b) => a + b, 0)}</span> of
     <span className="secondary">${props.targetAmountFromApp}</span>
   </h2>
 </section>
