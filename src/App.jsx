@@ -43,13 +43,14 @@ const donations = [
 ];
 
 function App() {
-  const donationOrder = donations.length.length + 1
+  const donationOrder = donations.length + 1 
   return (
     <>
       <TopBar />
       <main className="container">
-        <section className="sidebar"></section>
+        <section className="sidebar">
         <RecentDonations donations={donations}/>
+        </section>
         <section className="">
           <Progress targetAmount={targetAmount} donations={donations}/> 
           <DonationForm donationOrder={donationOrder}/> 

@@ -1,5 +1,4 @@
 
-
 export default function RecentDonations({donations}) {
   return(
     <section>
