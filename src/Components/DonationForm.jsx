@@ -1,3 +1,6 @@
-export default function DonationForm() {
-  return null;
+function DonationForm() {
+  return {
+
+  };
 }
+export default DonationForm;

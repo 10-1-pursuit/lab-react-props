@@ -1,5 +1,6 @@
 import React from "react";
 import TopBar from "./Components/TopBar";
+import RecentDonations from "./Components/RecentDonations";
 import "./App.css";
 
 const targetAmount = 1000;
@@ -36,17 +37,19 @@ const donations = [
   },
 ];
 
+// Map through every donation and return a list item with the name, amount, and caption.
+const recentDonationsProps = donations.map((donations) => { return <RecentDonations key={donations.name} nameAmountCaption={donations} /> })
+
 function App() {
   return (
     <>
       <TopBar />
       <main className="container">
-        <section className="sidebar">{/* Recent Donations */}</section>
-        <section className="">
-          {/* Progress */}
-          {/* Donation Form */}
+        <section className="sidebar"><b><h2>Recent Donations</h2></b>
+          {recentDonationsProps}
         </section>
-      </main>
+        <section className=""></section>
+      </main >
     </>
   );
 }
