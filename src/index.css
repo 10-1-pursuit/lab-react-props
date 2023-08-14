@@ -50,7 +50,7 @@ header p {
   display: grid;
   gap: 25px;
   grid-template-columns: 1fr 2fr;
-  margin: 25px auto;
+  margin: 25px 0px 0px 767px;
   width: 60%;
 }
 
@@ -83,10 +83,12 @@ header p {
 /* Progress */
 .progress {
   margin-bottom: 25px;
+  font-size: large;
 }
 
 .secondary {
   color: var(--secondary);
+  font-weight: 800;
 }
 
 /* Donation Form */
