@@ -2,7 +2,7 @@
 
 Pass props through multiple components to build a mockup of a "FundMe"-type website.
 
-![Image of completed application.](./assets/mockup.png)
+![Ken's image of completed ✅ application.](./assets/Screenshot%202023-08-16%20at%204.39.08%20AM.png)
 
 ---
 
@@ -25,7 +25,7 @@ Pass props through multiple components to build a mockup of a "FundMe"-type webs
 
 4. Deploy this application to Netlify and add the link to your netlify site below:
 
-- [MY LIVE SITE URL]()
+-✅ Check it out!✅ ------> [PEEP 😅 MY LIVE SITE URL](https://classy-cobbler-779b81.netlify.app)
 
 ## Instructions
 
