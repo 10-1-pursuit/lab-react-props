@@ -1,42 +1,21 @@
-export default function RecentDonations (){
+
+export default function RecentDonations (props){
+  // console.log(props.donationsFromApp[0].name)
   return (
     <>
-    <h2> RecentDonations </h2>
+    <section>
+  <h2>Recent Donations</h2>
+  <ul>
+    <li><span>{props.donationsFromApp[0].name} donated ${props.donationsFromApp[0].amount}</span>{props.donationsFromApp[0].caption}</li>
+    <li><span>{props.donationsFromApp[1].name} donated ${props.donationsFromApp[1].amount}</span>{props.donationsFromApp[1].caption}</li>
+    <li><span>{props.donationsFromApp[2].name} donated ${props.donationsFromApp[2].amount}</span>{props.donationsFromApp[2].caption}</li>
+    <li><span>{props.donationsFromApp[3].name} donated ${props.donationsFromApp[3].amount}</span>{props.donationsFromApp[3].caption}</li>
+    <li><span>{props.donationsFromApp[4].name} donated ${props.donationsFromApp[4].amount}</span>{props.donationsFromApp[4].caption}</li>
+
+  </ul>
+</section>
     </>
-  );
-  // null;
-}
+  )
+};
 
 
-
-// export default function RecentDonations() {
-//   return (
-//     <>
-//   <section className="donation">
-//   <h3>You could be donation <span class="secondary">#1!</span></h3>
-//   <form>
-//     <label htmlFor="name"
-//       >Name<input
-//         id="name"
-//         name="name"
-//         type="text"
-//         placeholder="Your name..." /></label
-//     ><label htmlFor="caption"
-//       >Caption<input
-//         id="caption"
-//         name="caption"
-//         type="text"
-//         placeholder="Add a brief message..." /></label
-//     ><label htmlFor="amount"
-//       >Amount<input
-//         id="amount"
-//         name="amount"
-//         type="number"
-//         placeholder="0" /></label
-//     ><button>Donate!</button>
-//   </form>
-// </section>
-//     </>
-//   )
-//   null;
-// }

@@ -3,6 +3,7 @@ import RecentDonations from "./Components/RecentDonations.jsx"
 import TopBar from "./Components/TopBar.jsx";
 import "./App.css";
 import Progress from "./Components/Progress.jsx"
+import DonationForm from "./Components/DonationForm.jsx";
 
 const targetAmount = 1000;
 const donations = [
@@ -46,12 +47,12 @@ function App() {
       <main className="container">
 
         <section className="sidebar">
-          <RecentDonations/>
+          <RecentDonations donationsFromApp={donations}/>
           </section>
 
         <section className="">
           <Progress targetAmountFromApp={targetAmount}/>
-          {/* Donation Form */}
+         < DonationForm donationsLength={donations.length}/>
         </section>
       </main>
     </>

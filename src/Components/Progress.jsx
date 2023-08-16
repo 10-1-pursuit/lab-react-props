@@ -1,11 +1,11 @@
 
 export default function Progress(props) {
-  console.log(props.targetAmountFromApp)
+  // console.log(props.targetAmountFromApp)
   return (
     <section className="progress">
       <h2>
-        Raised <span className="secondary">$90</span> of
-        <span className="secondary"> $    {props.targetAmountFromApp} </span>
+        Raised <span className="secondary">$330{props.donationsFromApp}</span> of
+        <span className="secondary"> ${props.targetAmountFromApp} </span>
       </h2>
     </section>
   )
