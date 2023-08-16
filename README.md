@@ -2,7 +2,7 @@
 
 Pass props through multiple components to build a mockup of a "FundMe"-type website.
 
-![Image of completed application.](./assets/mockup.png)
+![Ken's image of completed ✅ application.](./assets/Screenshot%202023-08-16%20at%204.39.08%20AM.png)
 
 ---
 
