@@ -1,5 +1,8 @@
 import React from "react";
-import TopBar from "./Components/TopBar";
+import TopBar from "./Components/TopBar.jsx";
+import RecentDonations from "./Components/RecentDonations.jsx"
+import DonationForm from "./Components/DonationForm.jsx"
+
 import "./App.css";
 
 const targetAmount = 1000;
@@ -40,8 +43,10 @@ function App() {
   return (
     <>
       <TopBar />
+      <RecentDonations />
+      <DonationForm />
       <main className="container">
-        <section className="sidebar">{/* Recent Donations */}</section>
+        <section className="sidebar">{/*Recent Donations*/}</section>
         <section className="">
           {/* Progress */}
           {/* Donation Form */}

@@ -1,3 +1,5 @@
 export default function RecentDonations() {
-  return null;
+ <header>
+  <h1>Recent Donations</h1>
+ </header>
 }
