@@ -1,5 +1,7 @@
 export default function RecentDonations() {
- <header>
-  <h1>Recent Donations</h1>
- </header>
+ return (
+ <div>
+  <p>_ Recent Donations _</p>
+ </div>
+ );
 }

@@ -2,6 +2,7 @@ import React from "react";
 import TopBar from "./Components/TopBar.jsx";
 import RecentDonations from "./Components/RecentDonations.jsx"
 import DonationForm from "./Components/DonationForm.jsx"
+import Progress from "./Components/Progress.jsx"
 
 import "./App.css";
 
@@ -43,8 +44,12 @@ function App() {
   return (
     <>
       <TopBar />
-      <RecentDonations />
       <DonationForm />
+      <Progress />
+      
+      
+      <RecentDonations />
+      
       <main className="container">
         <section className="sidebar">{/*Recent Donations*/}</section>
         <section className="">
@@ -57,3 +62,7 @@ function App() {
 }
 
 export default App;
+
+
+// Make certain that all components can be rendered
+// to App.jsx
