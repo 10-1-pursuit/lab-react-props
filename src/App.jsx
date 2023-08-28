@@ -7,7 +7,8 @@ import Progress from "./Components/Progress.jsx"
 import "./App.css";
 
 const targetAmount = 1000;
-const donations = [
+/*const donations = [  
+  > Temporarily commented out to work in RecentDonations.jsx
   {
     amount: 250,
     caption: "You really need this. Really.",
@@ -39,6 +40,7 @@ const donations = [
     name: "Sam",
   },
 ];
+*/
 
 function App() {
   return (
