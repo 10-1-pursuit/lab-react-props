@@ -48,8 +48,6 @@ function App() {
       <TopBar />
       <DonationForm />
       <Progress />
-      
-      
       <RecentDonations />
       
       <main className="container">

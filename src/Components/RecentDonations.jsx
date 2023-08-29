@@ -15,7 +15,7 @@ export default function RecentDonations() {
     },
     {
       amount: 20,
-      caption: "LOL! You are too funny. Happy to do this for you. :)",
+      caption: "LOL! You are too funny. Happy to do this for you. 😁",
       id: 3,
       name: "Michelle",
     },
@@ -33,21 +33,25 @@ export default function RecentDonations() {
     },
   ];
   
+  // testing if objects in donation array can be properly accessed
+  // delete when no longer needed
   console.log("recent donations:", donations);
   console.log("new donator:", donations[3]);
   console.log("donator name:", donations[3].name);
 
-//// JSX Return Below
+//// JSX Return Below (JSX is always within the return)
   return (
  <div>
 
   <section>
   <h2>Recent Donations</h2>
   <ul>
-    <li><span>Jo donated $25</span>You really need this. Really.</li>
-    <li><span>Rami donated $10</span>Here, take a break from work!</li>
-    <li>{donations[2].name}</li>
-    
+    <li><span>{donations[0].name} donated ${donations[0].amount}</span> {donations[0].caption}</li>
+    <li><span>{donations[1].name} donated ${donations[1].amount}</span> {donations[1].caption}</li>
+    <li><span>{donations[2].name} donated ${donations[2].amount}</span> {donations[2].caption}</li>
+    <li><span>{donations[3].name} donated ${donations[3].amount}</span> {donations[3].caption}</li>
+    <li><span>{donations[4].name} donated ${donations[4].amount}</span> {donations[4].caption}</li>
+
   </ul>
 </section>
 
