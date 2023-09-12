@@ -45,6 +45,9 @@ const targetAmount = 1000;
 function App() {
   return (
     <>
+    {/* JSX */}
+    
+    <h1>Winter is coming...</h1>
       <TopBar />
       <DonationForm />
       <Progress />
